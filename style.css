@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap');
+
+
+body {
+    background-color: rgb(245, 237, 230);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2%;
+}
+
+.container1 {
+    flex: 55%;
+    object-fit: contain;
+}
+
+.container2 {
+    flex: 45%;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-right: 5%;
+    object-fit: contain;
+}
+
+.price {
+    object-fit: contain;
+    display: inline-block"
+}
+
+img {
+    float: left;
+    height: 100%;
+    width: 100%;
+    border-bottom-left-radius: 2%;
+    border-top-left-radius: 2%;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    font-weight: bold;    
+}
+
+h3 {
+    font-family: 'Albert Sans', sans-serif;
+    color: rgb(165, 165, 165);
+    font-size: 16px;
+    font-weight: bold;   
+    letter-spacing: 3px; 
+}
+
+p {
+    font-family: 'Albert Sans', sans-serif;
+    text-align: left;
+    color: rgb(165, 165, 165);
+    font-size: 22px;
+}
+
+del {
+    color: rgb(165, 165, 165);
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+}
+
+.price-num {
+    color: rgb(10, 134, 103);
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    margin-right: 40px;
+}
+
+.add_button {
+    background-color: rgb(10, 134, 103);
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    width:95%;
+    height: 11%;
+    margin-left: 2%;
+    margin-right: 5%;
+    margin-top: 40px;   
+    margin-bottom: 50px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button-text {
+    font-family: 'Albert Sans', sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: inline;
+}
+
+.cart-svg {
+    display: inline;
+    margin-right: 10px;
+}
